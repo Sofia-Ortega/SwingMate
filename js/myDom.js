@@ -53,7 +53,7 @@ class Dom {
     }
 
     if (
-      this.foreBluetoothManager.isConnected() &&
+      this.foreBluetoothManager.isConnected() ||
       this.upperBluetoothManager.isConnected()
     ) {
       this.setModelScreen();
@@ -77,7 +77,7 @@ class Dom {
     }
 
     if (
-      this.foreBluetoothManager.isConnected() &&
+      this.foreBluetoothManager.isConnected() ||
       this.upperBluetoothManager.isConnected()
     ) {
       this.setModelScreen();
